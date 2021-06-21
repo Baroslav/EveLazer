@@ -1,0 +1,530 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Eve</title>
+    <base target="_blank">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet">
+
+  <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/circletype@2.3.0/dist/circletype.min.js"></script>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+  </head>
+
+  <body>
+  		<main>
+        <div class="container">
+  			 <div class="row">
+  				<div class="col-lg-4 offset-lg-1 col-md-4 offset-md-1">
+  					<div class="main-logo">
+  					<picture>
+  						<sourse scrset="img/eva_logo.svg" type="image">
+  						<img src="img/eva_logo.png" alt="Логотип Eva">	
+  					</picture>
+  					<p id="we">&nbsp&nbspСтудія лазерної епіляції та масажу</p>
+  					<p id="slogan">вільна. &nbsp&nbsp pсправжня. &nbsp&nbsp ти</p>
+  					</div>	  				
+  				</div>
+  				<div class="col-lg-3 offset-lg-0 col-md-3 offset-md-0">
+  					<picture class="top-map">
+  						<source srcset="img/map.svg" type="image">
+  							<img src="img/map.png" alt="Як нас знайти">
+  						</picture>
+  							<p class="map-text">Знаходимося у центрі:<br>вул. Св. Теодора, 8 <br><a class="link" href="https://www.google.com.ua/maps/place/%D0%BF%D0%BB.+%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D0%B3%D0%BE+%D0%A2%D0%B5%D0%BE%D0%B4%D0%BE%D1%80%D0%B0,+8,+%D0%9B%D1%8C%D0%B2%D0%BE%D0%B2,+%D0%9B%D1%8C%D0%B2%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+79000/@49.8466582,24.0251559,17z/data=!3m1!4b1!4m5!3m4!1s0x473add0cda7be925:0x22939b5991ec98c4!8m2!3d49.8466548!4d24.0273499?hl=ru">Дивитись на карті</a></p>
+  							
+  						</div>
+  							<div class="col-lg-2 offset-lg-0">
+  								<span class="phone">
+  									<picture>
+  										<source srcset="img/phone-call.svg" type="image">
+  											<img src="img/phone-call.png" alt="Телефон">
+  									</picture>
+  									<p>+380671232323</p>
+  								</span>
+  								<span class="days">
+  									<picture>
+  										<source srcset="img/phone-call.svg" type="image">
+  											<img src="img/wall-clock.png" alt="Годинник">
+  											<p>Пн-Сб: 10:00 - 20:00</p>
+  									</picture>
+  								</span>
+  							</div>
+  							<div class="col-lg-1">
+  								<button class="pink-btn top-btn button" href="#" onclick="show('popup')">Записатися</button>
+  							</div>
+  					
+  				</div>
+  			</div>
+  			<div class="row">
+  				<div class="col-lg-6 offset-lg-2">
+  					<h1 class="main-header">Хочеш позбутись <span>небажаного волося назавжди</span></H1>
+  					<ul type="circle" class="top-list">
+  						<li>Подаруєм тобі впевнаність</li>
+  						<li>Заберемо дискомфорт лишнього волося</li>
+  						<li>Без болю та подразнень</li>
+  					</ul>
+  					<button class="pink-btn bot-pink-btn button" href="#" onclick="show('popup')">Записатись на сеанс</button>
+  				</div>
+  				<div class="col-lg-1 offset-lg-3">
+  					<div class="icon-top">
+  					<picture>
+  						<source srcset="img/instagram.svg" type="image">
+                <a href="#">
+  							<img class="soc-icon-top instagram-icon" src="img/instagram.png" alt="Інстаграм">
+              </a>
+  					</picture>
+  					<picture>
+  						<source srcset="img/facebook.svg" type="image">                <a href="#">
+  							<img class="soc-icon-top facebook-icon" src="img/facebook.png" alt="Фейсбук">
+                </a>
+  					</picture>
+  					<picture">
+  						<source srcset="img/tik-tok.svg" type="image">
+                <a href="#">
+  							<img class="soc-icon-top tik-toc-icon" src="img/tik-tok.png" alt="Тік-ток">
+                </a>
+  					</picture>
+  			   </div>
+  				</div>
+  			</div>
+  			<picture>
+  				<source srcset="img/arrow.svg" type="image">
+  					<img class="arrow" src="img/arrow.png" alt="Стрілочка">
+  			</picture>
+        </div>
+  		</main>
+  		<div class="location">
+  			<div class="row">
+  				<div class="col-lg-5 offset-lg-1">
+  					<div class="box"></div>
+  					<div class="box2"></div>
+  					<div class="box3"></div>
+  					<picture>
+  						<source srcset="img/bg-2.svg" type="image">
+  							<img class="bg-2" src="img/bg-2.png" alt="...">
+  					</picture>
+  					<div class="container">	
+  					<picture>
+  						<source srcset="img/play.svg" type="image">
+  							<img class="play" src="img/play.png" alt="...">
+
+  							<p id="ranText">Переглянути відео про салон</p>
+                <script>new CircleType(document.getElementById('ranText'));</script>
+
+  					</picture>
+  					</div>	
+  				</div>
+  				<div class="col-lg-5">
+  					<h2 class="location-header">Привіт ,ми знаходимось в самому центрі, щоб тобі було зручніше добиратись до нас.</h2>
+  					<p class="location-main-text">Будемо раді бачити тебе за адресою:</p>
+  					<div class="loca">
+  					<picture class="glob">
+  						<source srcset="img/Glob.svg" type="image">
+  							<img class="glob" src="img/Glob.png" alt="Глобус">
+  					</picture>
+  					<p class="glob-text">&nbsp&nbspвул.Св. Теодора 8 <br><a class="link glob-link" href="https://www.google.com.ua/maps/place/%D0%BF%D0%BB.+%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D0%B3%D0%BE+%D0%A2%D0%B5%D0%BE%D0%B4%D0%BE%D1%80%D0%B0,+8,+%D0%9B%D1%8C%D0%B2%D0%BE%D0%B2,+%D0%9B%D1%8C%D0%B2%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+79000/@49.8466582,24.0251559,17z/data=!3m1!4b1!4m5!3m4!1s0x473add0cda7be925:0x22939b5991ec98c4!8m2!3d49.8466548!4d24.0273499?hl=ru"">&nbsp&nbspДивись на карті</a></p>
+  					</div>
+  					<div class="location-text">
+  					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ad necessitatibus sapiente cumque, rem provident doloremque laudantium temporibus repellendus ab ducimus aspernatur quia illum, ratione ea consequatur hic aliquid magnam!</p>
+  					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ad necessitatibus sapiente cumque, rem provident doloremque laudantium temporibus repellendus ab ducimus aspernatur quia illum, ratione ea consequatur hic aliquid magnam!</p>
+  				</div>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="reasons">
+  			<h1 class="reasons-header">Чому лазер це найкращий спосіб <br>позбавитись від волося</h1>
+  			<div class="row">
+  				<div class="col-lg-3 offset-lg-3">
+  					<div class="pointOfCros">
+  					<h3>Бритва</h3>
+  					<ul>
+  					<div class="cross">
+  					<picture>
+  						<source srcset="img/cross.svg" type="image">
+  							<img src="img/cross.png" alt="Хрестик">
+  							<li>Період 2-3 дня</li>
+  					</picture>	
+  					</div>
+  					<div class="cross">
+  						<source srcset="img/cross.svg" type="image">
+  							<img src="img/cross.png" alt="Хрестик">
+  							<li>Порізи шрами</li>
+  					</picture>
+  					</div>
+  					<div class="cross">
+  						<picture>
+  						<source srcset="img/cross.svg" type="image">
+  							<img src="img/cross.png" alt="Хрестик">
+  							<li>Подразнення</li>
+  					</picture>
+  					</div>
+  			</ul>
+  			<h3>Епілятор</h3>
+  					<ul>
+  					<div class="cross">
+  					<picture>
+  						<source srcset="img/cross.svg" type="image">
+  							<img src="img/cross.png" alt="Хрестик">
+  							<li>Період 7-10 днів</li>
+  					</picture>	
+  					</div>
+  					<div class="cross">
+  						<source srcset="img/cross.svg" type="image">
+  							<img src="img/cross.png" alt="Хрестик">
+  							<li>Вросле волося</li>
+  					</picture>
+  					</div>
+  					<div class="cross">
+  						<picture>
+  						<source srcset="img/cross.svg" type="image">
+  							<img src="img/cross.png" alt="Хрестик">
+  							<li>Подразнення</li>
+  					</picture>
+  					</div>
+  					<div class="cross">
+  						<source srcset="img/cross.svg" type="image">
+  							<img src="img/cross.png" alt="Хрестик">
+  							<li>Біль при використанні</li>
+  					</picture>
+  					</div>
+  			</ul>
+  				<h3>Епілятор</h3>
+  					<ul>
+  					<div class="cross">
+  					<picture>
+  						<source srcset="img/cross.svg" type="image">
+  							<img src="img/cross.png" alt="Хрестик">
+  							<li>Період 2-3 тиждні</li>
+  					</picture>	
+  					</div>
+  					<div class="cross">
+  						<source srcset="img/cross.svg" type="image">
+  							<img src="img/cross.png" alt="Хрестик">
+  							<li>Вросле волося</li>
+  					</picture>
+  					</div>
+  					<div class="cross">
+  						<picture>
+  						<source srcset="img/cross.svg" type="image">
+  							<img src="img/cross.png" alt="Хрестик">
+  							<li>Подразнення</li>
+  					</picture>
+  					</div>
+  					<div class="cross">
+  						<source srcset="img/cross.svg" type="image">
+  							<img src="img/cross.png" alt="Хрестик">
+  							<li>Потрібно відрошувати два тиждні</li>
+  					</picture>
+  					</div>
+  			</ul>
+  				</div>
+  				</div>
+  				<div class="col-lg-3">
+  					<div pointOfplus>
+  						<h3 class="headerOfplus">Лазерна епіляція</h3>
+  					<ul>
+  					<div class="plus">
+  					<picture>
+  						<source srcset="img/tick.svg" type="image">
+  							<img src="img/tick.png" alt="Галочка">
+  							<li>На все Життя</li>
+  							<p class="plustext">Після курсу та при профілактиці 1 - 2 рази на рік</p>
+  					</picture>	
+  					</div>
+  					</ul>
+  					<ul>
+  					<div class="plus">
+  					<picture>
+  						<source srcset="img/tick.svg" type="image">
+  							<img src="img/tick.png" alt="Галочка">
+  							<li>Безболісна</li>
+  							<p class="plustext">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+  					</picture>	
+  					</div>
+  				</ul>
+  				<ul>
+  					<div class="plus">
+  					<picture>
+  						<source srcset="img/tick.svg" type="image">
+  							<img src="img/tick.png" alt="Галочка">
+  							<li>Без подразнень</li>
+  							<p class="plustext">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+  					</picture>	
+  					</div>
+  				</ul>
+  				<ul>
+  					<div class="plus">
+  					<picture>
+  						<source srcset="img/tick.svg" type="image">
+  							<img src="img/tick.png" alt="Галочка">
+  							<li>Безпечно</li>
+  							<p class="plustext">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+  					</picture>	
+  					</div>
+  				</ul>
+  				<ul>
+  					<div class="plus">
+  					<picture>
+  						<source srcset="img/tick.svg" type="image">
+  							<img src="img/tick.png" alt="Галочка">
+  							<li>Економно</li>
+  							<p class="plustext">Lorem ipsum dolor, sit amet consectetur <a class="link" href="#">Переглянути відео</a></p>
+  					</picture>	
+  					</div>
+  				</ul>
+  				<ul>
+  					<div class="plus">
+  					<picture>
+  						<source srcset="img/tick.svg" type="image">
+  							<img src="img/tick.png" alt="Галочка">
+  							<li>Без врослого волося</li>
+  							<p class="plustext">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+  					</picture>	
+  					</div>
+  				</ul>
+  					</div>
+  				</div>
+  		</div>
+  		  		</div>
+  		<div class="instrument">
+  			<div class="row">
+  				<div class="col-lg-2 offset-lg-2">
+  					<div class="box4"></div>
+  					<img src="img/instrument.png" alt="Прилад">
+  				</div>
+  				<div class="col-lg-5 offset-lg-2">
+  					<h2>Ми використовужмо флагманський лазер <span>Medicallaser D-Las 120 Plus<span></h2>
+  					<ul>
+  						<li>Лазерна діодна епіляція волося на будь-якій  ділянці тіла</li>
+  						<li>Усунення врослого волося</li>
+  						<li>Покращеня охолодження для безболісної процедури</li>
+  						<li>Покращене меню для чіткішого налаштування лазеру під кожного кліента</li>
+  						<li>Усунення подразнення після гоління</li>
+  					</ul>
+  				</div>
+  			</div>
+ </div>
+  			<div class="about">
+  				<h2>Що на вас цекає в нашій студії</h2>
+  			<div class="container">
+  				<div class="row"> 
+  					<div class="border1"></div>
+  						<div class="border2"></div>
+  					<div class="col-lg-2 offset-lg-1">
+  						<img src="img/masters.png" alt="Майстри">
+  						<h3>Професійні майстри</h3>
+  						<p>З досвідом роботи від 3 років,які пройшли підвишення кваліфікації,
+  						отрималт необхідні сертифікати</p>
+
+  						<img class="botimg1" src="img/prise.png" alt="Ціни">
+  						<h3>Доступні ціни</h2>
+  						<p>Намагаємось тримати доступну для кожного вартість послуг,для цього скорочуємо витрати і оптимізуємо витрати</p>
+  					</div>
+  					<div class="col-lg-3 offset-lg-1">
+  						<img  src="img/Frendli.png" alt="Дружня атмосфера">
+  						<h3>Дружня атмосфера</h3>
+  						<p>Дуже класно,коли в студії наші гості відчувають спокій,комфорт і піднесений настрій</p>
+
+  						<img class="botimg2" src="img/sterility.png" alt="Стерильність">
+  						<h3>Стерильність</h3>
+  						<p>Тільки одноразові матеріали використовужмо в роботі ,на не цьому економимо.Безпека наших гостей понд усе</p>
+  					</div>
+  					<div class="col-lg-3 offset-lg-1">
+  						<img src="img/cosmetic.png" alt="Високоякісна косметика">
+  						<h3>Високоякісна косметика</h3>
+  						<p>Працюємо тільки на професійній косметиці,перевіряжмо склад і спосетрігаємо за тим ,щоб косметика реально працювала</p>
+
+  						<img class="botimg3" src="img/map1.png" alt="Зручне розташування">
+  						<h3>Зручне розташування</h3>
+  						<p>Студія знаходиться в центрі міста, щоб ВИ могли з комфортом дістатись з будь-якої точки міста</p>
+  					</div>
+  				</div>
+  		</div>
+  	</div>
+  	<div class="olso">
+  		<h2>А також...</h2>
+  		<div class="container">
+  		<div class="row">
+  			<div class="col-lg-2 offset-lg-0">
+  			<div class="oval1"></div>
+  			<div class="oval2"></div>
+  			<div class="oval3"></div>
+  			<div class="box4"></div>
+  			<div class="box5"></div>
+  			<p class="firstOlsoText">Масаж</p>
+  			<img src="img/мassage.png" alt="Масаж">
+  			</div>
+  			<div class="col-lg-2 offset-lg-2">
+  			<p class="secondOlsoText">Косметологія</p>
+  			<img src="img/kosmetologi.png" alt="Косметологія">
+  			</div>
+  			<div class="col-lg-3 offset-lg-2">
+  			<p class="thirdOlsoText">Інєкційні процедури</p>
+  			<img src="img/procedur.png" alt="Інші процедури">
+  			</div>
+  		</div>
+  	 </div>
+  	</div>
+  	<!-- Список цін -->
+
+
+<!-- Модальне вікно -->
+	<script>
+		$ = function(id) {
+		  return document.getElementById(id);
+		}
+
+		var show = function(id) {
+			$(id).style.display ='block';
+		}
+		var hide = function(id) {
+			$(id).style.display ='none';
+		}
+	</script>
+
+	<div class="popup" id="popup">
+    <div class="popup-content" id="popup-content">
+	  <h4 class="popup_header">Запис онлайн</h4>
+	  <p class="popuptext">Залишете заявку і ми вам передзвонимо</p>
+	  <form action="#">
+	  <input  class="popup_input" class="war" type="text" list="list" placeholder="Оберіть послугу" >
+	   <datalist id="list">
+	    <option class="popup_input" selected value="Лазерна епіляція">Лазерна епіляція</option>
+	    <option class="popup_input" value="Масаж">Масаж</option>
+	    <option class="popup_input" value="Косметологія">Косметологія</option>
+	   </datalist>
+	   <input class="popup_input" type="text" placeholder="Ім'я">
+	   <input class="popup_input" type="text" placeholder="Номер телефону">
+	  </form>
+	  <button class="popopbtn prosorabtn">Записатись на сеанс</button>
+	  <button class="popup-close" href="#" onclick="hide('popup')">&times</button>
+    </div>
+	</div>
+  <!-- Tikets -->
+
+  <div class="tiket">
+    <h2 сдф>Замовляй послуги лазерної епіляції та отримуй 5% знижки <br>на косметологію та 10% знижки на перший сеанс масажу</h2>
+      <div class="row">
+        <div class="col-lg-2">
+          <img class="mesage" src="img/mesage.png" alt="Лист">
+        </div>
+        <div class="col-lg-4 offset-lg-1">
+          <form class="formin" action="#">
+          <input  class="popup_input  tick_input" class="war" type="text" list="list" placeholder="Оберіть послугу" >
+           <datalist id="list">
+            <option class="popup_input tick_input" selected value="Лазерна епіляція">Лазерна епіляція</option>
+            <option class="popup_input tick_input" value="Масаж">Масаж</option>
+            <option class="popup_input tick_input" value="Косметологія">Косметологія</option>
+           </datalist>
+           <input class="popup_input tick_input" type="text" placeholder="Ім'я">
+           <input class="popup_input tick_input" type="text" placeholder="Номер телефону">
+          </form>
+        </div>
+        <div class="col-lg-3 offset-lg-1">
+          <img class="girl" src="img/girl.png" alt="Жінка">
+        </div>
+      </div>
+      <div class="box6"></div>
+      <button class="prosorabtn tickbtn">Записатись на сеанс</button>
+  </div>
+  <!-- Відгуки -->
+
+ <!--  <div class="reviews">
+      <h2>Відгуки</h2>
+      <div class="slider">
+      <div class="pers">
+        <img src="img/gs1.png" alt="">
+        <h4>Lorem ipsum<br><time>17.05.2017</time></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Id, sed voluptates error natus ut, in nam quia. Voluptates numquam, ratione accusantium voluptas laudantium, sed blanditiis totam amet necessitatibus excepturi nulla!</p>
+      </div>
+      <div class="pers">
+        <img src="img/gs2.png" alt="">
+        <h4>Lorem ipsum<br><time>17.05.2017</time></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Id, sed voluptates error natus ut, in nam quia. Voluptates numquam, ratione accusantium voluptas laudantium, sed blanditiis totam amet necessitatibus excepturi nulla!</p>
+      </div>
+      <div class="pers">
+        <img src="img/gs1.png" alt="">
+        <h4>Lorem ipsum<br><time>17.05.2017</time></h4> 
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Id, sed voluptates error natus ut, in nam quia. Voluptates numquam, ratione accusantium voluptas laudantium, sed blanditiis totam amet necessitatibus excepturi nulla!</p>
+      </div>
+      <div class="pers">
+        <img src="img/gs2.png" alt="">
+        <h4>Lorem ipsum<br><time>17.05.2017</time></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Id, sed voluptates error natus ut, in nam quia. Voluptates numquam, ratione accusantium voluptas laudantium, sed blanditiis totam amet necessitatibus excepturi nulla!</p>
+      </div>
+      </div>
+  </div> -->
+
+  <footer>
+      <div class="row topFot">
+        <div class="col-lg-3 offset-lg-1">
+          <img class="telefon" src="img/telefon.png" alt="Телефон">
+          <div class="box5"></div>
+          <a class="instalink" href="">@evalaserstiduo</a>
+        </div>
+        <div class="col-lg-2 offset-lg-1">
+          <h4>Ми знаходимося в центрі:</h4>
+          <p>вул.Св Теодора,8</p>
+          <h4>Телефон</h4>
+          <p>+380 67 123 23 23</p>
+          <h4>Години роботи</h4>
+          <p>Пн - Сб: 10:00-20:00</p>
+          <h4>Задайте питання в зручний месенджер</h4>
+             <picture>
+                <source srcset="img/wotsup.svg" type="image">
+                  <img class="socFooter" src="img/watsup.png" alt="Ватс ап">
+              </picture>  
+               <source srcset="img/telegram.svg" type="image">
+                  <img class="socFooter" src="img/telegram.png" alt="Телеграм">
+              </picture>  
+               <source srcset="img/viber.svg" type="image">
+                  <img class="socFooter" src="img/wiber.png" alt="Вайбер">
+              </picture>  
+            <h4>Ми у соц мережах</h4>
+            <picture>
+              <source srcset="img/tik-tok.svg" type="image">
+                <img class="socFooter" src="img/tik-tok.png" alt="Тік-ток">
+            </picture>  
+             <source srcset="img/instagram.svg" type="image">
+                <img class="socFooter" src="img/instagram.png" alt="Інстаграм">
+            </picture>  
+             <source srcset="img/facebook.svg" type="image">
+                <img class="socFooter" src="img/facebook.png" alt="Фейсбук">
+            </picture> 
+        </div>
+        <div class="col-lg-4 offset-lg-1">
+          <img class="bigImg" src="img/smallmap.png" alt="">
+          <img class="smallFotimg smallFotimg1" src="img/locks.png" alt="">
+          <img class="smallFotimg" src="img/locks.png" alt="">
+          <img class="smallFotimg" src="img/locks.png" alt="">
+        </div>
+      </div>
+      <p class="bottext">@2021 by Eva Laser</p>
+     <a class="bottext linkStidio" href="">Розроблено White Onyx Studio</a>
+    </footer>
+  <!-- <script>$(document).ready(function(){
+  $('.slider').slick({
+
+  });
+    });
+  </script>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script> -->
+  </body>
+</html>
